@@ -11,42 +11,96 @@ const Index = () => {
     {
       id: 1,
       name: 'Золотой мост',
-      description: 'Символ Владивостока, впечатляющий вантовый мост через бухту Золотой Рог',
+      description: 'Вантовый мост длиной 1388 метров через бухту Золотой Рог. Открыт в 2012 году к саммиту АТЭС.',
+      address: 'Бухта Золотой Рог',
       category: 'Архитектура',
       image: 'https://cdn.poehali.dev/projects/ec795877-c69f-4407-99c2-257fdcf0d48d/files/f3c91a13-c751-4665-a793-16555ddda1b7.jpg'
     },
     {
       id: 2,
       name: 'Фуникулёр',
-      description: 'Историческая канатная дорога с 1962 года, соединяющая центр с сопкой',
+      description: 'Единственная канатная дорога в России для городских перевозок. Работает с 1962 года.',
+      address: 'ул. Пушкинская, 25',
       category: 'Транспорт',
       image: 'https://cdn.poehali.dev/projects/ec795877-c69f-4407-99c2-257fdcf0d48d/files/2c73080d-3787-437b-b4d5-35f21e3698b1.jpg'
     },
     {
       id: 3,
       name: 'Владивостокская крепость',
-      description: 'Уникальный музей под открытым небом с панорамным видом на город',
+      description: 'Оборонительные укрепления конца XIX века. Открытый музей с батареями и фортами.',
+      address: 'Батарейная ул., 4а',
       category: 'История',
       image: 'https://cdn.poehali.dev/projects/ec795877-c69f-4407-99c2-257fdcf0d48d/files/4e4b8309-0ab9-4e26-910e-497e531ffb0d.jpg'
     },
     {
       id: 4,
       name: 'Остров Русский',
-      description: 'Природный заповедник с живописными бухтами и пляжами',
+      description: 'Крупнейший остров в заливе Петра Великого. Кампус ДВФУ, пляжи, форты.',
+      address: 'Остров Русский',
       category: 'Природа',
       image: 'https://cdn.poehali.dev/projects/ec795877-c69f-4407-99c2-257fdcf0d48d/files/f3c91a13-c751-4665-a793-16555ddda1b7.jpg'
     },
     {
       id: 5,
       name: 'Набережная Цесаревича',
-      description: 'Главная прогулочная зона с видом на бухту и порт',
+      description: 'Центральная набережная длиной 2 км с видом на бухту Золотой Рог и порт.',
+      address: 'Набережная Цесаревича',
       category: 'Прогулки',
       image: 'https://cdn.poehali.dev/projects/ec795877-c69f-4407-99c2-257fdcf0d48d/files/2c73080d-3787-437b-b4d5-35f21e3698b1.jpg'
     },
     {
       id: 6,
       name: 'Маяк Токаревский',
-      description: 'Романтичный маяк на краю полуострова Назимова',
+      description: 'Действующий маяк 1876 года постройки на мысе Токаревского. Закаты с видом на море.',
+      address: 'мыс Токаревский',
+      category: 'Природа',
+      image: 'https://cdn.poehali.dev/projects/ec795877-c69f-4407-99c2-257fdcf0d48d/files/4e4b8309-0ab9-4e26-910e-497e531ffb0d.jpg'
+    },
+    {
+      id: 7,
+      name: 'Ворошиловская батарея',
+      description: 'Береговая артиллерийская батарея с орудиями калибра 305 мм. Музейный комплекс.',
+      address: 'ул. Батарейная, 4А',
+      category: 'История',
+      image: 'https://cdn.poehali.dev/projects/ec795877-c69f-4407-99c2-257fdcf0d48d/files/4e4b8309-0ab9-4e26-910e-497e531ffb0d.jpg'
+    },
+    {
+      id: 8,
+      name: 'Орлиное гнездо',
+      description: 'Смотровая площадка на сопке Орлиная. Памятник Кириллу и Мефодию, панорама на 360°.',
+      address: 'сопка Орлиная',
+      category: 'Панорамы',
+      image: 'https://cdn.poehali.dev/projects/ec795877-c69f-4407-99c2-257fdcf0d48d/files/f3c91a13-c751-4665-a793-16555ddda1b7.jpg'
+    },
+    {
+      id: 9,
+      name: 'Русский мост',
+      description: 'Вантовый мост на остров Русский длиной 1885 м. Самый длинный вантовый мост в России.',
+      address: 'о. Русский',
+      category: 'Архитектура',
+      image: 'https://cdn.poehali.dev/projects/ec795877-c69f-4407-99c2-257fdcf0d48d/files/2c73080d-3787-437b-b4d5-35f21e3698b1.jpg'
+    },
+    {
+      id: 10,
+      name: 'Покровский парк',
+      description: 'Исторический парк в центре города с аллеями, скульптурами и Покровским собором.',
+      address: 'ул. Океанский проспект',
+      category: 'Парки',
+      image: 'https://cdn.poehali.dev/projects/ec795877-c69f-4407-99c2-257fdcf0d48d/files/f3c91a13-c751-4665-a793-16555ddda1b7.jpg'
+    },
+    {
+      id: 11,
+      name: 'Приморский океанариум',
+      description: 'Один из крупнейших океанариумов мира на о. Русский. Морские животные, дельфинарий.',
+      address: 'о. Русский, ул. Академика Касьянова, 25',
+      category: 'Развлечения',
+      image: 'https://cdn.poehali.dev/projects/ec795877-c69f-4407-99c2-257fdcf0d48d/files/2c73080d-3787-437b-b4d5-35f21e3698b1.jpg'
+    },
+    {
+      id: 12,
+      name: 'Стеклянный пляж',
+      description: 'Уникальный пляж с разноцветными стеклянными камушками в бухте Стеклянная.',
+      address: 'Бухта Стеклянная, Уссурийский залив',
       category: 'Природа',
       image: 'https://cdn.poehali.dev/projects/ec795877-c69f-4407-99c2-257fdcf0d48d/files/4e4b8309-0ab9-4e26-910e-497e531ffb0d.jpg'
     }
@@ -190,7 +244,11 @@ const Index = () => {
                 </div>
                 <CardContent className="p-6">
                   <h3 className="text-2xl font-bold mb-2">{attraction.name}</h3>
-                  <p className="text-muted-foreground">{attraction.description}</p>
+                  <p className="text-muted-foreground mb-3">{attraction.description}</p>
+                  <div className="flex items-center gap-2 text-sm text-muted-foreground">
+                    <Icon name="MapPin" size={16} className="text-primary" />
+                    <span>{attraction.address}</span>
+                  </div>
                 </CardContent>
               </Card>
             ))}
